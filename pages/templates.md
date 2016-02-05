@@ -20,24 +20,24 @@ edited: 05 лютого 2016
 <li><a href="#type_map">Карти</a>: omap, ocd files</li>
 </ul>
 
-<p>Additionally, templates can be classified into <b>georeferenced</b> and <b>non-georeferenced</b> templates. For georeferenced templates, information about the exact positioning of the template in a known world coordinate system is available - see <a href="georeferencing.md">georeferencing</a>. This way, they can be positioned on the map automatically provided that the map is georeferenced too. For non-georeferenced templates, this information is not available, so they have to be <a href="#positioning">positioned manually</a>.
+<p>Додатково, підложки можна розділити на <b>геоприв'язані</b> та <b>негеоприв'язані</b>. Для геоприв'язаних підложок доступна інформація щодо їх точного позицонування у відомій системі світових координат - див. <a href="georeferencing.md">геоприв'язка</a>. Таким чином, вони можуть бути автоматично позиціоновані на карті, за умови що карта також є геоприв'язаною. Для негеоприв'язаних підложок, ця інформація недоступна, тому їх доведеться <a href="#positioning">позиціонувати вручну</a>.
 
-<a name="setup"><h4>Template setup window</h4></a>
+<a name="setup"><h4>Вікно параметрів підложок</h4></a>
 
 <br/><br/><img src="images/template_setup_window.png" border="0" /><br/><br/>
 
-<p>This window is opened by clicking the menu item Templates -&gt; Template Setup Window. In its center is a list of all opened templates. In addition, the map layer is also included there. The order of items in this list defines the order in which the templates will be displayed: the first will be on the top, the last on the bottom.</p>
+<p>Це вікно відкривається через пункт меню Підложки -&gt; Вікно параметрів підложок. У його центральній частині знаходиться список усіх відкритих підложок. Шар з самою картою також показаний тут. Послідовність елементів у цьому списку визначає порядок у якому вони будуть відтворені: перший буде з самого верху, останній - внизу.</p>
 
-<p>Each item can be hidden or shown using the check box on the left. Furthermore, layers can be set to transparent by entering an opacity percentage.</p>
+<p>Кожен елемент може бути прихований або показаний за допомогою флажка у лівій частині. Крім цього, є можливість керувати прозорістю кожного шару, задаюи відсоток непрозорості.</p>
 
-<h4 id="open">Opening templates</h4>
-<p>Click the button "Open..." in the template setup window and select the file to be loaded as a template. See <a href="#types">types of templates</a> for the list of supported file formats.</p>
+<h4 id="open">Відкриття підложки</h4>
+<p>Клацніть на кнопку "Додати підложку..." у вікні параметрів підложок і виберіть файл що має бути підключений як підложка. Див. <a href="#types">типи підложок</a> щоб дізнатися про всі підтримувані формати файлів.</p>
 
-<h4 id="draw_order">Changing the template draw order</h4>
-<p>When a template is selected, it can be moved up and down in the list using the Move Up and Mode Down buttons to change its position in the display order.</p>
+<h4 id="draw_order">Зміна порядку відтворення підложок</h4>
+<p>Коли підложка вибрана, її можна рухати вверх або вниз по списку за допомогою кнопок Підняти/Опустити, це також зміню порядок у якому вона буде відтворена.</p>
 
-<h4 id="close">Deleting or closing templates</h4>
-<p>Using the Delete or Close button, templates can be removed. The label text depends on the <a href="settings.md#keep_closed_templates">corresponding setting</a> "Keep settings of closed templates": if it is activated, it will be "Close" and it will be possible to reopen the template later with the menu item Templates -&gt; Reopen template..., otherwise it will be "Delete" and it will not be possible to reopen the template later.</p>
+<h4 id="close">Видалення або закриття підложки</h4>
+<p>Використовуючи кнопку Видалити або Закрити, можна відключити підложку. Назва кнопки залежить від <a href="settings.md#keep_closed_templates">відповідної настройки</a> "запам'ятовувати налаштування закритих підложок": якщо вона активна, кнопка буде позначена як "Закрити" і залишиться можливість повторно відкрити підложку за допомогою пункту меню Підложки -&gt; Відкрити підложку знову..., у іншому випадку це буде "Видалити" без можливості повторно відкривати підложку в майбутньому.</p>
 
 <h4 id="positioning">Positioning</h4>
 <p>At the bottom of the window, there are the template positioning capabilities:</p>
