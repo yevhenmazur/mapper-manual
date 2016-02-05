@@ -1,22 +1,23 @@
 ---
-title: Introduction to Templates
+title: Підложки; введення
 authors:
   - Peter Hoban
   - Thomas Schoeps
-keywords: Templates
-edited: 25 February 2013
+  - Yevhen Mazur
+keywords: Підложки
+edited: 05 лютого 2016
 ---
 
-<p>Images, tracks recorded with GPS receivers and other layers which are used to provide base information for the mapper are called templates. They can be loaded into the map file using the template setup window which is available via the menu item Templates -&gt; Template Setup Window. Templates can also be "abused" to display information on the final map, for example sponsor logos which are only available as raster images.</p>
+<p>Зображення, треки з GPS приймачів а також інші матеріали, що використовуються в якості основи для спортивної карти називаються підложками. Вони можуть бути підключені до файлу карти за допомогою вікна параметрів підложок, що доступне через меню Підложки -&gt; Вікно параметрів підложок. Підложки також можуть використовуватись "не за призначенням" щоб зобразити певну інформацію на кінцевій карті, наприклад логотип спонсора, який доступний виключно у растровому форматі.</p>
 
-<p><b>Attention</b>: as templates are not covered by the undo/redo system, be sure to save your map before making changes to them!</p>
+<p><b>Увага!</b>: Оскільки операції відмінити/повернути не поширюються на підложки, переконайтеся що зберегли файл перед тим як правити їх.</p>
 
-<a name="types"><h4>Types of templates</h4></a>
-<p>OpenOrienteering Mapper supports the following file formats to be loaded as templates:</p>
+<a name="types"><h4>Типи підложок</h4></a>
+<p>OpenOrienteering Mapper дозволяє підключити у якості підложок файли таких форматів:</p>
 <ul>
-<li><a href="#type_image">Image templates</a>: bmp, jpg, png, tif, gif files</li>
-<li><a href="#type_track">Track templates</a>: dxf, gpx, osm files</li>
-<li><a href="#type_map">Map templates</a>: omap, ocd files</li>
+<li><a href="#type_image">Зображення</a>: bmp, jpg, png, tif, gif files</li>
+<li><a href="#type_track">Треки</a>: dxf, gpx, osm files</li>
+<li><a href="#type_map">Карти</a>: omap, ocd files</li>
 </ul>
 
 <p>Additionally, templates can be classified into <b>georeferenced</b> and <b>non-georeferenced</b> templates. For georeferenced templates, information about the exact positioning of the template in a known world coordinate system is available - see <a href="georeferencing.md">georeferencing</a>. This way, they can be positioned on the map automatically provided that the map is georeferenced too. For non-georeferenced templates, this information is not available, so they have to be <a href="#positioning">positioned manually</a>.
