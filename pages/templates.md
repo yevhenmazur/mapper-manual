@@ -39,16 +39,16 @@ edited: 05 лютого 2016
 <h4 id="close">Видалення або закриття підложки</h4>
 <p>Використовуючи кнопку Видалити або Закрити, можна відключити підложку. Назва кнопки залежить від <a href="settings.md#keep_closed_templates">відповідної настройки</a> "запам'ятовувати налаштування закритих підложок": якщо вона активна, кнопка буде позначена як "Закрити" і залишиться можливість повторно відкрити підложку за допомогою пункту меню Підложки -&gt; Відкрити підложку знову..., у іншому випадку це буде "Видалити" без можливості повторно відкривати підложку в майбутньому.</p>
 
-<h4 id="positioning">Positioning</h4>
-<p>At the bottom of the window, there are the template positioning capabilities:</p>
+<h4 id="positioning">Позиціонування</h4>
+<p>У нижній частині вікна розміщено інструменти для позиціонування підложки:</p>
 
-<p>The upper left button shows whether the template is <b>georeferenced</b>. Later it may become possible to switch the georeferencing setting using this button, but this is not yet implemented.</p>
+<p>Кнопка з решіткою показує чи є підложка <b>геоприв'язаною</b>. Пізніше з'явиться можливість змінювати налаштування геоприв'язки за допомогою цієї кнопки, але покищо це не реалізовано.</p>
 
-<p>At the lower left is the <b>Move by hand</b> button. It allows to move non-georeferenced templates by clicking in the map display and dragging the mouse.</p>
+<p>Кнопка <b>Перемістити вручну</b> дозволяє рухати негеоприв'язану підложку відносно карти мишкою. Для цього клікніть на <b>Перемістити вручну</b> і перетягуйте підложку мишкою прямо в області відображення карти.</p>
 
-<p>At the lower right is the toggle for the <b>template positioning window</b>. It enables to enter numerical values for the positioning of non-georeferenced templates, e.g. to rotate a template by 90 degrees, or to adapt the template rotation to the magnetic declination.</p>
+<p>Праворуч знаходиться перемикач <b>Правка - Позиціонування</b>. Він активує вікно, яке дозволяє позиціонувати негеоприв'язану підложку вводом чисел з клавіатури. Тут можна задати зміщення по осям X та Y, різні маштаби по цим осям, а також обертання підложки на довільний кут.</p>
 
-<p><a name="adjust">At the upper right is the <b>Adjust</b> button which enables to adjust the position of a non-georeferenced template to that of an existing template, or the map, which is in the correct position already.</a> <a href="template_adjust.md">Detailed instructions here</a>.</p>
+<p><a name="adjust">У центрі панелі розташована кнопка <b>Сумістити</b>, з червоним і зеленим крестиками. button which enables to adjust the position of a non-georeferenced template to that of an existing template, or the map, which is in the correct position already.</a> <a href="template_adjust.md">Detailed instructions here</a>.</p>
 
 
 <h4>Template types</h4>
