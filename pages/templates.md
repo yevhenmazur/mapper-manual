@@ -1,11 +1,11 @@
----
+﻿---
 title: Підложки; введення
 authors:
   - Peter Hoban
   - Thomas Schoeps
   - Yevhen Mazur
 keywords: Підложки
-edited: 05 лютого 2016
+edited: 03 вересня 2016
 ---
 
 <p>Зображення, треки з GPS приймачів а також інші матеріали, що використовуються в якості основи для спортивної карти називаються підложками. Вони можуть бути підключені до файлу карти за допомогою вікна параметрів підложок, що доступне через меню Підложки -&gt; Вікно параметрів підложок. Підложки також можуть використовуватись "не за призначенням" щоб зобразити певну інформацію на кінцевій карті, наприклад логотип спонсора, який доступний виключно у растровому форматі.</p>
@@ -13,14 +13,14 @@ edited: 05 лютого 2016
 <p><b>Увага</b>: Оскільки операції відмінити/повернути не поширюються на підложки, переконайтеся що зберегли файл перед тим як правити їх!</p>
 
 <a name="types"><h4>Типи підложок</h4></a>
-<p>OpenOrienteering Mapper дозволяє підключити у якості підложок файли таких форматів:</p>
+<p>OpenOrienteering Mapper дозволяє підключити в якості підложок файли таких форматів:</p>
 <ul>
-<li><a href="#type_image">Зображення</a>: bmp, jpg, png, tif, gif files</li>
-<li><a href="#type_track">Треки</a>: dxf, gpx, osm files</li>
-<li><a href="#type_map">Карти</a>: omap, ocd files</li>
+<li><a href="#type_image">Зображення</a>: bmp, jpg, png, tif, gif файли</li>
+<li><a href="#type_track">Треки</a>: dxf, gpx, osm файли</li>
+<li><a href="#type_map">Карти</a>: omap, ocd файли</li>
 </ul>
 
-<p>Додатково, підложки можна розділити на <b>геоприв'язані</b> та <b>негеоприв'язані</b>. Для геоприв'язаних підложок доступна інформація щодо їх точного позицонування у відомій системі світових координат - див. <a href="georeferencing.md">геоприв'язка</a>. Таким чином, вони можуть бути автоматично позиціоновані на карті, за умови що карта також є геоприв'язаною. Для негеоприв'язаних підложок, ця інформація недоступна, тому їх доведеться <a href="#positioning">позиціонувати вручну</a>.
+<p>Додатково, підложки можна розділити на <b>геоприв'язані</b> та <b>негеоприв'язані</b>. Для геоприв'язаних підложок доступна інформація щодо їх точного позиціонування у відомій системі світових координат - див. <a href="georeferencing.md">геоприв'язка</a>. Таким чином, вони можуть бути автоматично позиціоновані на карті, за умови що карта також є геоприв'язаною. Для негеоприв'язаних підложок, ця інформація недоступна, тому їх доведеться <a href="#positioning">позиціонувати вручну</a>.
 
 <a name="setup"><h4>Вікно параметрів підложок</h4></a>
 
@@ -28,7 +28,7 @@ edited: 05 лютого 2016
 
 <p>Це вікно відкривається через пункт меню Підложки -&gt; Вікно параметрів підложок. У його центральній частині знаходиться список усіх відкритих підложок. Шар з самою картою також показаний тут. Послідовність елементів у цьому списку визначає порядок у якому вони будуть відтворені: перший буде з самого верху, останній - внизу.</p>
 
-<p>Кожен елемент може бути прихований або показаний за допомогою флажка у лівій частині. Крім цього, є можливість керувати прозорістю кожного шару, задаюи відсоток непрозорості.</p>
+<p>Кожен елемент може бути прихований або показаний за допомогою флагу у лівій частині. Крім цього, є можливість керувати прозорістю кожного шару, задаючи відсоток непрозорості.</p>
 
 <h4 id="open">Відкриття підложки</h4>
 <p>Клацніть на кнопку "Додати підложку..." у вікні параметрів підложок і виберіть файл що має бути підключений як підложка. Див. <a href="#types">типи підложок</a> щоб дізнатися про всі підтримувані формати файлів.</p>
@@ -42,54 +42,54 @@ edited: 05 лютого 2016
 <h4 id="positioning">Позиціонування</h4>
 <p>У нижній частині вікна розміщено інструменти для позиціонування підложки:</p>
 
-<p>Кнопка з решіткою показує чи є підложка <b>геоприв'язаною</b>. Пізніше з'явиться можливість змінювати налаштування геоприв'язки за допомогою цієї кнопки, але покищо це не реалізовано.</p>
+<p>Кнопка з решіткою показує чи є підложка <b>геоприв'язаною</b>. Пізніше з'явиться можливість змінювати налаштування геоприв'язки за допомогою цієї кнопки, але поки що це не реалізовано.</p>
 
 <p>Кнопка <b>Перемістити вручну</b> дозволяє рухати негеоприв'язану підложку відносно карти мишкою. Для цього клікніть на <b>Перемістити вручну</b> і перетягуйте підложку мишкою прямо в області відображення карти.</p>
 
-<p>Праворуч знаходиться перемикач <b>Правка - Позиціонування</b>. Він активує вікно, яке дозволяє позиціонувати негеоприв'язану підложку вводом чисел з клавіатури. Тут можна задати зміщення по осям X та Y, різні маштаби по цим осям, а також обертання підложки на довільний кут.</p>
+<p>Праворуч знаходиться перемикач <b>Правка - Позиціонування</b>. Він активує вікно, яке дозволяє позиціонувати негеоприв'язану підложку вводом чисел з клавіатури. Тут можна задати зміщення по осям X та Y, різні масштаби по цим осям, а також обертання підложки на довільний кут.</p>
 
-<p><a name="adjust">У центрі панелі розташована кнопка <b>Сумістити</b>, з червоним і зеленим крестиками. button which enables to adjust the position of a non-georeferenced template to that of an existing template, or the map, which is in the correct position already.</a> <a href="template_adjust.md">Detailed instructions here</a>.</p>
+<p><a name="adjust">У центрі панелі розташована кнопка <b>Сумістити</b>, з червоним і зеленим крестиками. Цей інструмент дозволяє сумістити певні точки на негеоприв'язаній підложці з відповідними точками на іншій підложці або на карті, що вже має правильну позицію.</a> <a href="template_adjust.md">Більш детальні інструкції тут</a>.</p>
 
 
-<h4>Template types</h4>
+<h4>Типи підложок</h4>
 
-<a name="type_image"><h3>Image templates</h3></a>
+<a name="type_image"><h3>Зображення</h3></a>
 
-<p>Raster images are loaded as this template type. When opening such a template, the image positioning dialog is shown:</p>
+<p>До цього типу підложок належать усі растрові зображення. Відкриваючи підложку такого типу, ви побачите діалог як на ілюстрації нижче:</p>
 
 <br/><br/><img src="images/template_image_positioning.png" border="0" /><br/><br/>
 
-<h4>Georeferenced positioning</h4>
+<h4>Позиціонування за геоприв'язкою</h4>
 
-<p>This option is only available if the image has georeferencing information associated. OpenOrienteering supports this via so-called world files. A world file for an image must have the same file name as the image file and be in the same directory. The world file extension is determined by the image extension: it consists of the first character of the image file extension, then the last character of this extension, and then the letter w. For example, a world file for a bmp file would have the extension bpw, or for tiff it would be tfw. Alternatively, the world file extension can also be wld.</p>
+<p>Ця опція доступна лише якщо зображення супроводжується інформацією щодо геоприв'язки. OpenOrienteering Mapper підтримує такий супровід через world-файли з відповідними іменами. World-фал для зображення повинен мати таке саме ім'я як і файл зображення і знаходитись в тій самій папці. Розширення world-фала залежить від розширення файлу зображення: воно формується з першої літери розширення файлу зображення, потім іде остання літера з цього розширення і в кінці додається літера w. Наприклад, world-файл для зображення у форматі bmp буде мати розширення bpw, а для tiff це буде tfw. Як альтернатива, розширення world-фалу може також бути wld.</p>
 
-<p>World files are text files containing 6 entries of a transformation matrix mapping pixel coordinates to grid coordinates of some geodesic coordinate reference system (<a href="http://en.wikipedia.org/wiki/World_file">more information on Wikipedia</a>). Unfortunately, they do not specify which coordinate reference system it is. So if you choose this option for positioning, you have to specify the coordinate reference system in the next step. You should get this information from the place where you got the georeferenced image from. For example, in Germany it is usually UTM or Gauss-Kr&uuml;ger with a limited range of possible middle meridians.</p>
+<p>World-файл це текстовий файл, що містить 6 елементів для трансформації піксельної матриці растрового зображення у геодезичні координати, відповідно до деякої базової системи координат (БСК) (<a href="http://en.wikipedia.org/wiki/World_file">детальніше про World-файл у Wikipedia</a> *(англ.)*). Нажаль, у world-файлі неможливо вкзати яка саме БСК мається на увазі. Тому, якщо ви обираєте цей варіант позиціонування, вам доведеться вказати систему координат на наступному кроці. Ви можете отримати цю інформацію з того джерела, звідки ви отримали зображення з world-файлом. На приклад, для Німеччини *(як і для України)* це зазвичай UTM або СК Гауса-Крюгера з обмежаним діапазоном зон Гауса-Крюгера.</p>
 
-<p>In order for georeferenced positioning to work, the map must be georeferenced, too. If it is not at this point in time, the <a href="georeferencing.md">map georeferencing dialog</a> is shown as the next step, with the reference point coordinates already pre-filled as the center of the loaded image.</p>
+<p>Для того щоб позиціонування за геопрв'язкою працювало, карта також має бути геоприв'язаною. Якщо, наразі це не так, <a href="georeferencing.md">діалог геоприв'язки карти</a> буде показаний наступним кроком, у якості опорної точки буде використано центер зображення, що ми підключаємо.</p>
 
-<h4>Manual positioning</h4>
+<h4>Позиціонування вручну</h4>
 
-<p>This method of positioning should only be chosen if you have no georeferencing information available for the image. First, there are two possible options to specify the image scale:</p>
-
-<ul>
-<li><b>Meters per pixel</b>: this is primarily useful for base maps from a digital source, where you may know this value directly. Alternatively you can also calculate it yourself: if your fieldwork image covers 500m width on the ground and the image is 1200 pixels wide then the scale will be 500 / 1200 = 0.625 metres per pixel. (Take care that the number of metres corresponds exactly the width of the image file.)</li>
-<li><b>Scanned</b>: if your fieldwork is at a known scale (it should be &#8212; say 1:5000), and the scan is at a chosen resolution (say 200dpi) then these parameters may be entered to scale the fieldwork image. This assumes that printer and scanner work accurately.</li>
-</ul>
-
-<p>Note that if you do not know the image scale and / or if you are going to adjust the template position to the existing map anyway using the <a href="#adjust">adjust feature</a>, you can just enter any value here as the scaling will be changed again later.</p>
-
-<a name="type_track"><h3>Track templates</h3></a>
-
-<p>These templates can be tracks from a GPS receiver (including waypoints) or vector graphics such as dxf files. For the latter, you have to select a coordinate reference system when loading the file. If it is just a drawing which is not georeferenced, select the option "Local" so will not be distorted.</p>
-
-<a name="type_map"><h3>Map templates</h3></a>
-
-<p>This template type enables to load other map files as a template. This has two main purposes:</p>
+<p>Слід застосовувати цей метод позиціонування лише в тому випадку, якщо зображення не супроводжується ніякою інформацією щодо геоприв'язки. Для початку, є кілька варіантів як вказати масштаб зображення:</p>
 
 <ul>
-<li>Loading an old orienteering map as a base map for a new one.</li>
-<li>Loading a map as a base layer to set a course on top of it.</li>
+<li><b>Метри на піксель</b>: це насамперед корисно якщо базове зображення отримане з цифрового джерела, з якого ви безпосередньо можете отримати цю величину. У іншому випадку, ви можете обчислити її самостійно: якщо ваша польова чорнетка покриває 500м місцевості в ширину і ширина зображення має 1200 пікселів, тоді масштаб буде 500 / 1200 = 0.625 метрів на піксел. (Зверніть увагу що ми говоримо про точну кількість метрів у ширині зображення.)</li>
+<li><b>Властивості сканування</b>: якщо ваша польова чорнетка має відомий масштаб (скажімо 1:5000), і вона сканована з відомою роздільною здатністю (хай буде 300 dpi) тоді ці параметри можуть бути введені в форму установки масштабу польової чорнетки. Мається на увазі що принтер і сканер працюють точно.</li>
 </ul>
 
-<p>For now, map templates can only be loaded as non-georeferenced.</p>
+<p>Зверніть увагу, якщо ви не знаєте масштабу зображення та / або все одно збираєтесь установлювати підложку за допомогою інструменту <a href="#adjust">Сумістити</a>, ви можете ввести будь-які дані у цю форму, бо масштаб і позиціонування все одно буде змінене.</p>
+
+<a name="type_track"><h3>Трек</h3></a>
+
+<p>Підложки такого типу можуть бути отримані з GPS приймача (включаючи точки шляху *(waypoints)*), або у вигляді векторної графіки, такої як dxf файли. Щодо останніх, вам доведеться вказати ще й базову систему координат. Якщо це лише негеоприв'язанай малюнок, виберіть варіант "Локально" і він не буде викривлений ніяким чином.</p>
+
+<a name="type_map"><h3>Карти</h3></a>
+
+<p>Це означає що можливо підключити карту в якості підложки для іншої карти. Є два випаки у яких це може знадобитись:</p>
+
+<ul>
+<li>Підключення старої спортивної карти, щоб зробити нову поверх неї.</li>
+<li>Підключення спортивної карти, щоб намалювати на ній дистанцію.</li>
+</ul>
+
+<p>На даний момент, підложка у форматі карти може бути підключена лише як негеоприв'язана.</p>
 
