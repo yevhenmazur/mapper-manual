@@ -3,19 +3,20 @@ title: Map Screen
 authors:
   - Peter Hoban
   - Thomas Schoeps
-edited: 24 February 2013
+  - Yevhen Mazur
+edited: 03 вересня 2016
 ---
 
-<p>This is the main window when drawing maps. By default it looks similar to this:</p>
+Це головне вікно у якому малюється карта. За замовченням воно виглядає якось так:
 
 <br/><br/><img src="images/main_window.png" border="0" /><br/><br/>
 
-<p>The <b>toolbars</b> at the top provide access to the drawing tools, among others. See the <a href="toolbars.md">list of all toolbar elements</a>.</p>
+**Панелі** у верхній частині вікна містять інструменти для малювання та інші інструменти. Дивіться [Перелік усіх елементів панелі](toolbars.md) щоб дізнатися більше про ці інструменти.
 
-<p>In the middle, the currently opened <b>map</b> is displayed.</p>
+У середній частині відображається **карта**, яка до речі, як раз відкрита.
 
-<p>On the right, a list of all <b>symbols</b> in the currently opened map file is shown. See <a href="symbol_dock_widget.md">symbols</a>.</p>
+Правіше, можна побачити перелік усіх **знаків** що присутні на відкритій карті. Перейдіть до розділу [Знаки](symbol_dock_widget.md) щоб дізнатися про це більше.
 
-<p>On the bottom, there is the <b>status bar</b> which shows useful information about the usage of the currently active tool. Just by reading these tips, you can learn a lot about the drawing tools without reading this manual.</p>
+Внизу розташована **панель статусу** яка показує корисну інформацію про використання активного інструменту. Лише читаючи ці підказки, ви можете дізнатися багато корисного про рботу графічних інструментів, навіть не заглядаючи в інструкцію.
 
-<p>You can rearrange the position of the toolbars and the symbol pane as you wish by dragging them to the desired location.</p>
+Ви можете змінити розташування будь-яких панелей, включаючи панель знаків, за власним смаком, просто перетягуючи їх мишкою.
