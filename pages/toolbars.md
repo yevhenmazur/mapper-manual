@@ -4,8 +4,9 @@ authors:
   - Peter Hoban
   - Kai Pastor
   - Thomas Schoeps
+  - Yevhen Mazur
 keywords: Toolbars
-edited: 30 November 2015
+edited: 09 вересня 2016
 todo:
   - Split this page and update ALL context help in Mapper.
   - Update context help for zoom-in and -out in Mapper.
@@ -20,101 +21,98 @@ todo:
  * [Editing toolbar](#editing-toolbar)
  * [Advanced drawing](#advanced-drawing-toolbar)
 
-*Note:* Toolbars may be moved to a more convenient position.  To detach and move, pick the handle (the vertical line of dots) at the left end and drag the toolbar to your preferred position.  The resulting order of your tools may thus be different from this page.
+*Зверніть увагу:* Панелі можна перемістити у більш зручні місця.  Для того щоб відокремити і рухати панель, візьміть за маркер (вертикальний стовпчик з точок) на лівому краю панелі і перетягніть її у бажане місце. У зв'язку з цим порядок інструментів може відрізнятися від описаного у цьому документі.
 
 
-## General toolbar {#general-toolbar}
+## Загальна панель {#general-toolbar}
 
-#### ![ ](../mapper-images/new.png) New map {#new_map}
+#### ![ ](../mapper-images/new.png) Нова карта {#new_map}
 Ctrl+N
 
-Click to create a new map.
+Клікніть щоб створити нову карту.
 
-#### ![ ](../mapper-images/open.png) ![ ](../mapper-images/save.png) Open / save map {#open_save_map}
+#### ![ ](../mapper-images/open.png) ![ ](../mapper-images/save.png) Відкрити / Зберегти карту {#open_save_map}
 Ctrl+O / Ctrl+S
 
-Click to open/save an existing map.
+Клікніть щоб відкрити/зберегти існуючу карту.
 
-#### ![ ](../mapper-images/print.png) Print map {#print}
+#### ![ ](../mapper-images/print.png) Друк {#print}
 Ctrl+P
 
-Click to open the print dialog.
+Клікніть щоб відкрити діалог друку.
 
-#### ![ ](../mapper-images/cut.png)  ![ ](../mapper-images/copy.png) ![ ](../mapper-images/paste.png) Cut / copy / paste objects {#cut_copy_paste}
+#### ![ ](../mapper-images/cut.png)  ![ ](../mapper-images/copy.png) ![ ](../mapper-images/paste.png) Вирізати / Копіювати / Вставити об'єкти {#cut_copy_paste}
 Ctrl+X / Ctrl+C / Ctrl+V
 
-Click to cut / copy the currently selected objects to the clipboard, or to paste the clipboard contents into the map (at the center of the view).
+Клікніть щоб вирізати / скопіювати виділені об'єкти у буфер обміну, або щоб вставити вміст буферу обміну в карту (у центр зображення).
 
-#### ![ ](../mapper-images/undo.png) ![ ](../mapper-images/redo.png) Undo / redo object editing {#undo_redo}
+#### ![ ](../mapper-images/undo.png) ![ ](../mapper-images/redo.png) Відмінити / Повернути редагування об'єкту {#undo_redo}
 Ctrl+Z / Ctrl+Y
 
-Click to undo or redo the last map editing step.
+Клікніть щоб відмінити або виконати повторно останню правку карти.
 
 
-## View toolbar {#view-toolbar}
+## Панель виду {#view-toolbar}
 
-#### ![ ](../mapper-images/grid.png) Grid {#grid}
+#### ![ ](../mapper-images/grid.png) Сітка {#grid}
 G
 
-Click the button to toggle showing the [map grid](grid.md). Click the arrow to the right of this button to show the [grid configuration](grid.md).
+Натисніть на цю кнопку щоб включити або виключити відображення [сітки](grid.md). Натисніть на стрілку праворуч від кнопки щоб побачити [налаштування сітки](grid.md).
 
-#### ![ ](../mapper-images/move.png) Pan map {#pan_map}
+#### ![ ](../mapper-images/move.png) Рухати карту {#pan_map}
 F6
 
-Use this tool to move the map by clicking the map and dragging the mouse.
+Використовуйте цей інструмент щоб рухати карту. Клікніть мишкою у області карти і перетягуйте її.
+*Зверніть увагу:* Ви завжди можете рухати карту за допомогою середньої кнопки миші, або за допомогою клавіш зі стрілками на клавіатурі.
 
-*Note:* You may always move the map by dragging with middle mouse button, or by using the arrow keys.
-
-#### ![ ](../mapper-images/view-zoom-in.png) ![ ](../mapper-images/view-zoom-out.png) Zoom in / zoom out {#zoom_in_out}
+#### ![ ](../mapper-images/view-zoom-in.png) ![ ](../mapper-images/view-zoom-out.png) Наблизити / Віддалити {#zoom_in_out}
 F7, + / F8, -
 
-Use these actions to zoom in (enlarge) or zoom out (shrink). The center of the view stays at the same position in the map.
+Використовуйте ці кнопки щоб наблизити (збільшити) або віддалити (зменшити) вид карти. Центр області відображення при цьому залишатиметься у тій самій точці.
 
-#### ![ ](../mapper-images/view-show-all.png) Show whole map {#zoom_all}
-Use this tool to display the whole map, including the currently visible templates, at maximum possible zoom.
+#### ![ ](../mapper-images/view-show-all.png) Показати всю карту {#zoom_all}
+Використовуйте цей інструмент щоб відобразити всю карту, включаючи усі видимі підложки, у максимальному можливому збільшенні.
 
-This can be particularly useful when items (objects, templates) are accidentally moved far from your working area and out of sight. This tool brings them onscreen. If the map is just a dot in one corner then the rogue feature is near the other edge of the screen.
-
-
-## Map parts toolbar {#map-parts-toolbar}
-
-This toolbar will not be shown unless the map has multiple parts.
-
-At the moment, the map parts toolbar has only a single drop down box for indicating and selecting the active map part.
+Це може бути корисно якщо елементи карти (об'єкти чи підложки) випадково опинилися по-за робочою областю і зникли з виду. Цей інструмент легко поверне їх на екран. If the map is just a dot in one corner then the rogue feature is near the other edge of the screen.
 
 
+## Частини карти {#map-parts-toolbar}
 
-## Drawing toolbar {#drawing-toolbar}
+Ця панель не відображається доки карта складається лише з однієї частини.
 
-#### ![ ](../mapper-images/tool-edit.png) Edit objects {#tool_edit_point}
+Станом на сьогодні ця панель містить лише випадаючий список для відображення і вибору активної частини карти.
+
+
+## Панель графічних інструментів {#drawing-toolbar}
+
+#### ![ ](../mapper-images/tool-edit.png) Редагувати об'єкти {#tool_edit_point}
 E
 
-Using this tool, click on the map to select a single object. If the object you wish is not selected with the first click, click more times to go through all objects below the cursor. To select multiple object hold the Shift key when you click subsequent objects. If you Shift-click on an object which has been already been selected the click will deselect that object. A group of objects may also be selected by drawing a selection box with a left-click and drag.
+Використовуючи цей інструмент, клікніть на карті щоб вибрати один об'єкт. Якщо з першого разу вибрався не той об'єкт який вам потрібен, клікніть ще кілька разів, перебираючи усі об'єкти біля курсора, доки під виділення не потрапить бажаний. Щоб виділити декілька об'єктів утримуйте клавішу Shift і клікайте на наступний об'єкт який слід додати до виділення. Якщо, утримуючи клавішу Shift, клікнути по об'єкту який вже знаходиться під виділенням, його буде виключено з виділення. Також можна виділити групу об'єктів якщо обвести їх рамкою виділення. Для цього протягніть мишкою, утримуючи її ліву кнопку.
 
-If only a few objects are selected, the nodes defining these object become visible. There are different types of nodes:
- - A square stands for a normal node.
- - A diamond depicts a [dash point (see below)](#dash-points).
- - A circle depicts a bezier curve handle, defining the tangent of a curve point.
-Individual nodes can be dragged with the mouse to change their position. To change the tangent direction of a node on a bezier curve click the end of the handle and drag it. Longer handles have greater influence, while shorter handles have only local effect.
+Якщо під виділенням знаходиться небагато об'єктів, будуть відображені вузли, що визначають ці об'єкти. Існують різні види вузлів:
+ - Квадратним маркером позначається звичайний вузол.
+ - Ромбовидний маркер означає що це [штрихова точка (дивись далі)](#dash-points).
+ - Кружечками позначаються маркери на кривій Безьє, що визначають напрям дотичної у точці.
+Окремі вузли можна перетаскувати мишкою, міняючи їх розташування. Для зміни напряму дотичної до кривої Безьє клікніть на круглий маркер на кінці дотичної і перетягніть його. Довша дотична матиме сильніший вплив на криву, тоді як коротша матиме лише місцевий ефект.
 
-To **add** an extra node to an existing line or curve, Ctrl-click on an empty spot of a path. By moving the mouse, the new node can be positioned in the same action. If a **dash point** is required, hold the space bar down while Ctrl-clicking. To **remove** a node, Ctrl-click an existing node.
+Ви можете **створити** додатковий вузол на вже існуючій лінії або кривій, для цього  клікніть на вільному місці лінії, утримуючи клавішу Ctrl. Рухаючи мишку можна змінювати розташування нового вузла, не завершуючи дію. Якщо необхідно створити **штрихову точку**, утримуйте клавішу *Пробіл*, коли здійснюєте Ctrl-клік. Щоб **видалити** зайвий вузол, здійсніть Ctrl-клік по ньому.
 
-To move the selected objects as a whole, click and drag the dashed box which encloses all selected objects. While dragging nodes or objects, there are means for more accurate positioning:
- - Holding **Ctrl** constrains the movement angle. For nodes and regularly shaped objects, these will be the parallel and perpendicular directions to the object.
- - Holding **Shift** makes the cursor snap to other existing objects.
+Щоб рухати весь виділений об'єкт цілком, потягніть за пунктирну рамку, яка його оточує. При перетаскуванні вузлів чи об'єктів активуються засоби для більш точного їх позиціонування:
+ - Утримування **Ctrl** обмежує кут руху. Для вузлів та об'єктів правильної форми, це будуть напрямки паралельно та перпендикулярно до об'єкта.
+ - Утримування **Shift** призведе до того що курсор буде притягуватися до існуючих об'єктів.
 
 
-#### ![ ](../mapper-images/tool-edit-line.png) Edit lines {#tool_edit_line}
+#### ![ ](../mapper-images/tool-edit-line.png) Редагувати лінії {#tool_edit_line}
 L
 
-Using this tool, objects can be selected like with the [point editing tool](#tool_edit_point).
+Цим інструментом можна виділяти об'єкти так само як і за допомогою [інструмента редагування вузлів](#tool_edit_point).
 
-If only a few objects are selected, line segments of these objects can be edited by clicking them and dragging the mouse. For straight lines, the angle constraint will be active automatically. This makes it easy to edit e.g. rectangular houses while ensuring that they stay rectangular. To toggle the angle constraint, hold Ctrl.
+Якщо під виділенням знаходиться небагато об'єктів, сегменти ліній можна переміщувати перетягуванням миші. Для ламаних ліній буде автоматично задіяно обмеження кута для переміщення сегмента. Це дозволяє легко редагувати, наприклад, прямокутні будинки, забезпечуючи при цьому їх прямокутність. Щоб виключити обмеження кутів, утримуйте Ctrl.
 
-To switch a line segment between curved and straight, hold Ctrl while clicking the segment.
+Можна змінити тип сегменту з ламаної на криву і навпаки, для цього клікніть по ньому, утримуючи Ctrl.
 
-
-#### ![ ](../mapper-images/draw-point.png) Set point objects {#tool_draw_point}
+#### ![ ](../mapper-images/draw-point.png) Поставити точковий об'єкт {#tool_draw_point}
 S
 
 This tool enables you to insert a point symbol from the map symbol window. This includes boulders, rocky ground, knolls, waterholes or any other symbol representing a point feature too small to be drawn to scale. Select the symbol for the feature to be inserted by clicking it on the symbol window, click the point tool (if it is not activated automatically) and then click on the map to insert that feature on the map.
